@@ -9,11 +9,11 @@ class Program
         string firstName = Console.ReadLine();
 
         // Prompt for last name
-        Console.Write("What is your last name? ")
+        Console.Write("What is your last name? ");
         string lastName = Console.ReadLine();
 
         // Display formated name
         Console.WriteLine();
-        Console.WriteLine($"Your name is {lastname}, {firstname} {lastname}.");
+        Console.WriteLine($"Your name is {lastName}, {firstName} {lastName}.");
     }
 }
